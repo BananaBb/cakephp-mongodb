@@ -19,18 +19,18 @@ this repository should be installed in the same way as any other plugin.
 To install the driver for use in a single application:
 
 	cd my/app/Plugin
-	git clone git://github.com/ichikaway/cakephp-mongodb.git Mongodb
+	git clone git://github.com/BananaBb/cakephp-mongodb.git Mongodb
 
 To install the driver for use in any/multiple application(s)
 
 	# where ROOT is the name of the directory parent to the base index.php of CakePHP.
 	cd ROOT/Plugin
-	git clone git://github.com/ichikaway/cakephp-mongodb.git Mongodb
+	git clone git://github.com/BananaBb/cakephp-mongodb.git Mongodb
 
 ### composer
 This plugin on the Packagist.
 
-https://packagist.org/packages/ichikaway/cakephp-mongodb
+https://packagist.org/packages/BananaBb/packages/cakephp-mongodb
 	
 ## Sample Code
 
@@ -81,3 +81,4 @@ There are also some sample [controller actions: find,save,delete,deleteAll,updat
 
 ## Author
 Yasushi Ichikawa ([ichikaway](http://twitter.com/ichikaway))
+BananaBb
