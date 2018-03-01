@@ -79,6 +79,17 @@ Mongo uses a primary key named "\_id" (cannot be renamed). It can be any format 
 Before you start, you may find it useful to see [a model sample.](http://github.com/ichikaway/mongoDB-Datasource/blob/master/samples/models/post.php)
 There are also some sample [controller actions: find,save,delete,deleteAll,updateAll](http://github.com/ichikaway/mongoDB-Datasource/blob/master/samples/controllers/posts_controller.php) note that your controller code needs no specific code to use this datasource.
 
+## Fixed
+
+	<?php
+	$variable = $this->Model->find('all', array(
+		'conditions' => [
+			'table.key' => (int)id,
+		],
+		'order' => ['table.created ASC'], // Now Support this case and ['table.created' => 'ASC']
+	));
+
 ## Author
 Yasushi Ichikawa ([ichikaway](http://twitter.com/ichikaway))
+
 BananaBb
