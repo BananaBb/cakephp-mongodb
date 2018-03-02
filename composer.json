@@ -1,9 +1,9 @@
 {
-    "name": "ichikaway/cakephp-mongodb",
+    "name": "bananabb/cakephp-mongodb",
     "description": "MongoDB Datasource for CakePHP",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "mongo", "datasource"],
-    "homepage": "https://github.com/ichikaway/cakephp-mongodb",
+    "homepage": "https://github.com/BananaBb/cakephp-mongodb",
     "license": "MIT",
     "authors": [
         {
@@ -34,11 +34,15 @@
         {
             "name": "Various Others",
             "homepage": "https://github.com/ichikaway/cakephp-mongodb/graphs/contributors"
+        },
+        {
+            "name": "BananaBb",
+            "homepage": "https://github.com/BananaBb"
         }
     ],
     "support": {
-        "issues": "https://github.com/ichikaway/cakephp-mongodb/issues",
-        "source": "https://github.com/ichikaway/cakephp-mongodb"
+        "issues": "https://github.com/BananaBb/cakephp-mongodb/issues",
+        "source": "https://github.com/BananaBb/cakephp-mongodb"
     },
     "require": {
         "php": ">=5.3.0",
