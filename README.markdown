@@ -86,7 +86,7 @@ There are also some sample [controller actions: find,save,delete,deleteAll,updat
 		'conditions' => [
 			'table.key' => (int)id,
 		],
-		'order' => ['table.created ASC'], // Now Support this case and ['table.created' => 'ASC']
+		'order' => ['table.created ASC'], // Now Support this case and this case: ['table.created' => 'ASC']
 	));
 
 ## Author
