@@ -53,7 +53,7 @@
 	  },
     "extra": {
         "branch-alias": {
-            "cake-mongo.2.3": "2.3.x"
+            "cake-mongo.2.3": "2.3.x-dev"
         },
         "installer-name": "Mongodb"
     }
