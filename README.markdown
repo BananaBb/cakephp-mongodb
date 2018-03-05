@@ -30,7 +30,7 @@ To install the driver for use in any/multiple application(s)
 ### composer
 This plugin on the Packagist.
 
-https://packagist.org/packages/BananaBb/packages/cakephp-mongodb
+https://packagist.org/packages/bananabb/cakephp-mongodb
 	
 ## Sample Code
 
